@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #950f3e;
+}
+.header-welcome h1{
+    margin: 13px;
+    font-size: 0.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 199, 111, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    /* padding-bottom: 10px; */
+    position: sticky;
+}
+.logo img{
+    mix-blend-mode: color-burn;
+    margin-right: 25px;
+}
+.headerMenu{
+    display: flex;
+    gap: 10px;
+}
+.headerMenu a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+.headerMenu a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.headerMenu select{
+    background: none;
+    border: none;
+    color: rgb(237, 237, 237);
+}
+.headerMenu select:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.headerMenu select option{
+    color: rgb(47, 47, 47);
+}
+.right{
+    margin-left: 200px;
+}
+.right a{
+    color: #fff;
+    margin-left: 15px;
+}
