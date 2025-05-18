@@ -34,7 +34,7 @@
 }
 .headerMenu{
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 .headerMenu a{
     color: rgb(237, 237, 237);
